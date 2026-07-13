@@ -1,5 +1,22 @@
 def bubble_sort numbers
 
+    size =  numbers.length
+    swapped = true
+    temp = 0
+
+    while swapped
+        swapped = false
+        for i in 1..size - 1 do
+            if numbers[i-1] > numbers[i]
+              temp = numbers[i]
+              numbers[i] = numbers[i-1]
+              numbers[i-1] = temp
+              swapped = true
+            end
+        end
+    end
+
+    p numbers
 
 end  
 
