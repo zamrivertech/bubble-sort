@@ -1,28 +1,5 @@
 def bubble_sort numbers
-  
-  index = 0
-  temp = 0
 
-  while numbers 
-
-    if numbers[index+1] == nil
-
-      index = 0
-      
-    elsif numbers[index] > numbers[index+1]
-      
-      temp = numbers[index]
-      numbers[index] = numbers[index+1]
-      numbers[index+1] = temp
-      p numbers
-
-    end
-
-    index += 1  
-    
-
-
-  end
 
 end  
 
